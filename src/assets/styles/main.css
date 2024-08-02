@@ -1,0 +1,36 @@
+
+#app {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  background-color: plum;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0em;
+  margin: 0em;
+}
+
+body {
+  width: 95vw;
+}
+
+@font-face {
+  font-family: 'caviar';
+  src: url('/src/fonts/caviar_dreams/CaviarDreams.ttf');
+
+  font-family: 'magnisia';
+  src:url('/src/fonts/magnisa_sans/MagnisaSans-Regular.ttf');
+
+  font-family: 'milestone';
+  src:url('/src/fonts/milestone_brush/MilestoneBrush.ttf');
+
+}
+
+
