@@ -29,12 +29,12 @@ height: 10em;
 object-fit: cover;
 border-radius: 50%;
 box-shadow: 0 0  30px white;
-margin-top: 50px;
+margin-top: 3em;
 margin-left: 20em;
 margin-right: 100px;
   }
 
-h1 {
+h1, h2 {
   font-family: 'milestone',sans-serif;
   font-size: 3em;
   flex-direction: row;
@@ -42,27 +42,30 @@ h1 {
   padding-left: 12em;
   border-top-style: solid;
   border-top-width: 0px;
-  margin-top: -4em;
+}
+
+h1 {
+  margin-top: -3em;
   
 };
 
-h2 {
-  margin-top: 0.5em;
-  font-family: "milestone",sans-serif;
-  font-size: 3em;
-  padding-right: 2em;
-  padding-left: 12em;
-};
+
 
 #ThePresentation {
   display: flex;
-  border-color: brown;
+ 
 }
 
 p{
   font-family: "magnisia", sans-serif;
-  font-size: 1.5em;
-}
+  font-size: 2em;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+  padding-left: 5em;
+  padding-right: 5em;
+  line-height: 1.2em;
+
+};
 
 
 </style>
