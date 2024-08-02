@@ -17,10 +17,11 @@
 <style>
 
 #logo_Myrtille {
-  width: 15em;
-  height: 15em;
+  width: 13em;
+  height: 10em;
   padding-bottom: 1em;
-  padding-left: 1em;
+  padding-left: 5em;
+  margin-top: -4em;
   display: flex;
 
 };
@@ -36,5 +37,6 @@
   align-items: center;
 
 }
+
 
 </style>

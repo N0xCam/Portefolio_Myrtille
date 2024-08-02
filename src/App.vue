@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import TheHeader from "./src/"
+
 </script>
 
 <template>
@@ -23,8 +23,14 @@ import TheHeader from "./src/"
   nav {
     display: flex;
     flex-direction: row;
-    padding-left: 20em;
+    padding-left: 10em;
     font-family: "caviar", sans-serif;
-  }
+    font-size: 1.2em;
+    justify-content: space-around;
+    padding-top: 3em;
+    color: red;
+  };
 
+ 
+  
 </style>
