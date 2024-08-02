@@ -6,7 +6,7 @@
 
       <nav>
         <div>
-          <img src="../assets/images/logo_Myrtille.png" alt="logo Myrtille" id="logo_Myrtille">
+          <img src="../assets/images/Myrtille.png" alt="logo Myrtille" id="logo_Myrtille">
         </div>
 
       </nav>
