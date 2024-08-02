@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import TheHeader from '../components/1_TheHeader.vue'
 import ThePresentation from '../components/2_ThePresentation.vue'
 import TheModals from '../components/3_TheModals.vue'

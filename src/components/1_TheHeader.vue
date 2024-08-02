@@ -6,14 +6,9 @@
 
       <nav>
         <div>
-          <img src="../assets/images/logo_Myrtille.png" alt="logo Myrtille" id="me">
+          <img src="../assets/images/logo_Myrtille.png" alt="logo Myrtille" id="logo_Myrtille">
         </div>
 
-          <ul>
-              <li> Ma Présentation </li>
-              <li> Mes Créations </li>
-              <li> Me contacter </li>
-          </ul>
       </nav>
 
   </TheHeader>
@@ -21,11 +16,13 @@
 
 <style>
 
-#Myrtille {
-  width: 2em;
-  height: 10em;
+#logo_Myrtille {
+  width: 15em;
+  height: 15em;
   padding-bottom: 1em;
   padding-left: 1em;
+  display: flex;
+
 };
 
 * {
