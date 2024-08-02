@@ -23,13 +23,13 @@ body {
 
 @font-face {
   font-family: 'caviar';
-  src: url('/src/fonts/caviar_dreams/CaviarDreams.ttf');
+  src: url('/src/assets/fonts/caviar_dreams/CaviarDreams.ttf');
 
   font-family: 'magnisia';
-  src:url('/src/fonts/magnisa_sans/MagnisaSans-Regular.ttf');
+  src:url('/src/assets/fonts/magnisa_sans/MagnisaSans-Regular.ttf');
 
   font-family: 'milestone';
-  src:url('/src/fonts/milestone_brush/MilestoneBrush.ttf');
+  src:url('/src/assets/fonts/milestone_brush/MilestoneBrush.ttf');
 
 }
 
