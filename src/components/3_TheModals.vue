@@ -1,92 +1,55 @@
 <template>
-  
-  <TheModals>
-
-      <div id="Modal1">
-        <img src="../assets/images/modal_1.png">
+  <div class="wrapper">
+    <flicking ref="flicking0" :options="{ bounce: 30 }" :plugins="plugins">
+      <div class="flicking-panel full has-background-primary">
+        <img class="panel-image" src="../assets/images/modal_1.png" />
       </div>
-
-      <div id="Modal2">
-        <img src="../assets/images/modal_2.png">
+      <div class="flicking-panel full has-background-primary">
+        <img class="panel-image" src="../assets/images/modal_2.png" />
       </div>
-
-      <div id="Modal3">
-        <img src="../assets/images/modal_3.png">
+      <div class="flicking-panel full has-background-primary">
+        <img class="panel-image" src="../assets/images/modal_3.png" />
       </div>
-
-  </TheModals>
+     
+    </flicking>
+    <flicking ref="flicking1" :options="{ bound: true, bounce: 30, moveType: 'freeScroll' }">
+      <div class="flicking-panel thumb has-background-primary">
+        <img class="thumb-image" src="../assets/images/modal_1.png" />
+      </div>
+      <div class="flicking-panel thumb has-background-primary">
+        <img class="thumb-image" src="../assets/images/modal_2.png" />
+      </div>
+      <div class="flicking-panel thumb has-background-primary">
+        <img class="thumb-image" src="../assets/images/modal_3.png" />
+      </div>
+     
+    </flicking>
+  </div>
 </template>
+<script>
+import { Sync } from "@egjs/flicking-plugins";
 
-<style scoped>
-.item {
-  margin-top: 2rem;
-  display: flex;
-  position: relative;
-}
-
-.details {
-  flex: 1;
-  margin-left: 1rem;
-}
-
-i {
-  display: flex;
-  place-items: center;
-  place-content: center;
-  width: 32px;
-  height: 32px;
-
-  color: var(--color-text);
-}
-
-h3 {
-  font-size: 1.2rem;
-  font-weight: 500;
-  margin-bottom: 0.4rem;
-  color: var(--color-heading);
-}
-
-@media (min-width: 1024px) {
-  .item {
-    margin-top: 0;
-    padding: 0.4rem 0 1rem calc(var(--section-gap) / 2);
-  }
-
-  i {
-    top: calc(50% - 25px);
-    left: -26px;
-    position: absolute;
-    border: 1px solid var(--color-border);
-    background: var(--color-background);
-    border-radius: 8px;
-    width: 50px;
-    height: 50px;
-  }
-
-  .item:before {
-    content: ' ';
-    border-left: 1px solid var(--color-border);
-    position: absolute;
-    left: 0;
-    bottom: calc(50% + 25px);
-    height: calc(50% - 25px);
-  }
-
-  .item:after {
-    content: ' ';
-    border-left: 1px solid var(--color-border);
-    position: absolute;
-    left: 0;
-    top: calc(50% + 25px);
-    height: calc(50% - 25px);
-  }
-
-  .item:first-of-type:before {
-    display: none;
-  }
-
-  .item:last-of-type:after {
-    display: none;
+export default {
+  data() {
+    return {
+      plugins: []
+    }
+  },
+  mounted() {
+    this.plugins = [new Sync({
+      type: "index",
+      synchronizedFlickingOptions: [
+        {
+          flicking: this.$refs.flicking0,
+          isSlidable: true
+        },
+        {
+          flicking: this.$refs.flicking1,
+          isClickable: true,
+          activeClass: "active"
+        }
+      ]
+    })];
   }
 }
-</style>
+</script>

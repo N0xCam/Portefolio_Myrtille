@@ -49,7 +49,9 @@ h1 {
   
 };
 
-
+h2 {
+  padding-bottom: 1em;
+}
 
 #ThePresentation {
   display: flex;
@@ -67,5 +69,10 @@ p{
 
 };
 
+h1 {
+  border: 2px dotted rgb(0, 0, 0)
+  
+  
+}
 
 </style>

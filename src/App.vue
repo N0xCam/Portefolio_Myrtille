@@ -6,19 +6,15 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header>
-    
-      <nav>
-        <RouterLink to="/">Présentation</RouterLink>
-        <RouterLink to="/about">Mes Créations</RouterLink>
-        <RouterLink to="/about">Me Contacter</RouterLink>
-
-      </nav>
-
-  </header>
-
+  <main>
   <RouterView />
+</main>
+<footer>
+
+</footer>
 </template>
+
+
 
 <style scoped>
 
@@ -29,8 +25,7 @@ import { RouterLink, RouterView } from 'vue-router'
     font-family: "caviar", sans-serif;
     font-size: 1.2em;
     justify-content: space-around;
-    padding-top: 3em;
-    color: red;
+    
   };
 
  
