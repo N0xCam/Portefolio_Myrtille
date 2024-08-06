@@ -8,7 +8,7 @@
 </div>
 
 <div id="legal_mentions">
-    <small> Myrtille - 2024 </small>
+    <small> IE Myrtille - Brandgatan 12, 457 40 Fjällbacka, Suède  </small>
     <small> Dernière modification le 03 août 2024</small>
 </div>
 </template>

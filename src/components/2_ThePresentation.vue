@@ -4,10 +4,10 @@
 
 <template>
   
-    <ThePresentation>
+   
 
         <div id="Name">
-            <img src="../assets/images/1687551056196.jpg" alt="Myrtille" id="Me">
+            <img src="../assets/images/1687551056196.jpg" alt="Myrtille" id="Me" style="z-index: 2;">
             <h1> Myrtille</h1>
             <h2> Développeuse Web</h2>
         </div>
@@ -16,8 +16,9 @@
               Après une expérience réussie de commerciale, je me challenge dans une reconversion en tant que développeuse web. Je souhaite mettre toutes ces compétences au service de votre entreprise pour enrichir votre visibilité.
             </p>
         </div>
+        
 
-    </ThePresentation>
+   
 
 </template>
 
@@ -40,21 +41,20 @@ h1, h2 {
   flex-direction: row;
   padding-right: 2em;
   padding-left: 12em;
-  border-top-style: solid;
-  border-top-width: 0px;
-}
+  
+};
 
 h1 {
-  margin-top: -3em;
-  
+  margin-top: 2em;
 };
 
 h2 {
   padding-bottom: 1em;
-}
+};
 
 #ThePresentation {
   display: flex;
+  
  
 }
 
@@ -66,13 +66,9 @@ p{
   padding-left: 5em;
   padding-right: 5em;
   line-height: 1.2em;
+  margin-bottom: 2em;
 
 };
 
-h1 {
-  border: 2px dotted rgb(0, 0, 0)
-  
-  
-}
 
 </style>

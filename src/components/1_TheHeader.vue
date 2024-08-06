@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <TheHeader>
+ 
 
       <nav>
 
@@ -11,7 +11,7 @@
 
              <ul>
                 <li>
-                  <a href="My_presentation"> Ma Présentation </a>
+                  <a href=""> Ma Présentation </a>
                 </li>
              
                 <li> 
@@ -26,16 +26,17 @@
           
       </nav>
 
-  </TheHeader>
+
 </template>
 
 <style>
 
 #logo_Myrtille {
-  width: 13em;
-  height: 10em;
+  width: 17em;
+  height: 15em;
   padding-bottom: 2em;
-  padding-left: 5em;
+  padding-left: 2em;
+  padding-right: 3em;
   margin-top: -2em;
   display: flex;
 
@@ -56,17 +57,19 @@
 nav {
   display: flex;
   flex-direction: row;
-  margin-top: 1.5em;
+  margin-top: 2em;
 }
 
 ul {
   width: 30em;
   height: 5em;
-  margin-left: 5em;
+  margin-left: 1em;
   font-family: "caviar", sans-serif;
-  font-size: 1.5em;
+  font-size: 2em;
   display: flex;
   justify-content: space-evenly;
+  margin-top: 1.5em;
+  
   
 }
 
