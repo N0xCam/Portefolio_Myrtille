@@ -1,9 +1,18 @@
 <template>
 
+<div id="footer"></div>
+
 <div id="social_medias">
-    <img src="../assets/images/github_logo.png" alt="GitHub">
-    <img src="../assets/images/footer_LINKEDin.png" alt="LinkedIn">
-    <img src="../assets/images/footer_X.png" alt="X">
+    <div id="GitHub">
+        <a href="https://github.com/N0xCam" target="_blank"><img src="../assets/images/github-mark.png" alt="GitHub" style="height: 7em"></a>
+    </div>
+    <div id="LinkedIn">
+        <a href="https://fr.linkedin.com/" target="_blank"> <img src="../assets/images/linkedin.png" alt="GitHub" style="height: 7em"></a>
+    </div>
+    <div id="X">
+        <a href="https://x.com/?lang=fr" target="_blank"><img src="../assets/images/twitter.png" alt="X" style="height: 7em"></a>
+    </div>
+    
 
 </div>
 
@@ -13,5 +22,46 @@
 </div>
 </template>
 
-<style>
+<style scoped>
+
+#social_medias {
+    height: 20em;
+    width: 10em;
+    display: flex;
+    margin-top: 3em;
+    justify-content: space-around;
+    margin-left: 27em;
+    margin-top: 5em;
+};
+
+#social_medias:hover {
+    opacity: 0.4;
+}
+
+#social_medias:hover {
+    cursor: pointer;
+    }
+
+#Github {
+   margin-right: 2em;
+};
+
+#LinkedIn {
+    height: 2em;
+    width: 20%;
+    margin-left: 2em;
+    margin-right: 2em;
+};
+
+#X {
+height: 2em;
+width: 2em;
+padding-left: 2em;
+};
+
+small {
+    display: flex;
+    flex-direction: row;
+}
+
 </style>

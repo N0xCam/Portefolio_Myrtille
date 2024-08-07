@@ -3,23 +3,23 @@
 
 <template>
  
-
+<div id="home"></div>
       <nav>
 
         
-             <img src="../assets/images/Myrtille.png" alt="logo Myrtille" id="logo_Myrtille">
+             <a href="#home"><img src="../assets/images/Myrtille.png" alt="logo Myrtille" id="logo_Myrtille"></a>
 
              <ul>
                 <li>
-                  <a href='../components/2_ThePresentation.vue'> Ma Présentation </a>
+                  <a href='#Presentation'> Ma Présentation </a>
                 </li>
              
                 <li> 
-                  <a href='../components/Contenu.vue'> Mes Créations </a>
+                  <a href='#form'> Mes Créations </a>
                 </li>
              
                 <li> 
-                  <a href="../components/4_TheForm.vue">Me Contacter </a>
+                  <a href="#form">Me Contacter </a>
                 </li>
 
               </ul>
@@ -58,6 +58,9 @@ nav {
   display: flex;
   flex-direction: row;
   margin-top: 2em;
+  position:fixed;
+  background-color: plum;
+  opacity: 0.5;
 }
 
 ul {

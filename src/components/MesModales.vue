@@ -12,18 +12,7 @@
       </div>
     </div>
 
-    <div class="bloc-modale" v-if="revele">
-      <div class="overlay" v-on:click="toggleModale"></div>
-  
-      <div class="modale card">
-        <div v-on:click="toggleModale" class="btnCV">X</div>
-        <h2>Mon cahier des charges</h2>
-        <h3> Date de création : 30/05/2024 </h3>
-        <h4> Canva, PDF, Word</h4>
-        <h5> Consultez mon projet ! <link href="https://github.com/N0xCam/CV_Regina_Phalange"/> </h5>
-        <img src="../assets/images/modal_2.png" alt="Ma maquette">
-      </div>
-    </div>
+    
 
     <div class="bloc-modale" v-if="revele">
       <div class="overlay" v-on:click="toggleModale"></div>

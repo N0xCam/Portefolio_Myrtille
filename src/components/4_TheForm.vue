@@ -1,4 +1,7 @@
 <template>
+
+  <div id="form"></div>
+
   <form ref="form" @submit.prevent="sendEmail">
     <label>Prénom</label>
     <input type="text" name="user_name">
