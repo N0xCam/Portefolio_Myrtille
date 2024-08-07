@@ -11,15 +11,15 @@
 
              <ul>
                 <li>
-                  <a href=""> Ma Présentation </a>
+                  <a href='../components/2_ThePresentation.vue'> Ma Présentation </a>
                 </li>
              
                 <li> 
-                  <a href="My_creations"> Mes Créations </a>
+                  <a href='../components/Contenu.vue'> Mes Créations </a>
                 </li>
              
                 <li> 
-                  <a href="contact_me">Me Contacter </a>
+                  <a href="../components/4_TheForm.vue">Me Contacter </a>
                 </li>
 
               </ul>
@@ -68,9 +68,11 @@ ul {
   font-size: 2em;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 1.5em;
-  
-  
+  margin-top: 1.5em;  
+}
+
+h1 {
+  margin-top: -3em;
 }
 
 

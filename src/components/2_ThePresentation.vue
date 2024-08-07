@@ -17,6 +17,7 @@
             </p>
         </div>
         
+        
 
    
 
@@ -46,6 +47,7 @@ h1, h2 {
 
 h1 {
   margin-top: 2em;
+  
 };
 
 h2 {
@@ -69,6 +71,7 @@ p{
   margin-bottom: 2em;
 
 };
+
 
 
 </style>
