@@ -2,33 +2,49 @@
 </script>
 
 <template>
-  <TheHeader>
+ 
 
       <nav>
-        <div>
-          <img src="../assets/images/Myrtille.png" alt="logo Myrtille" id="logo_Myrtille">
-        </div>
 
+        
+             <img src="../assets/images/Myrtille.png" alt="logo Myrtille" id="logo_Myrtille">
+
+             <ul>
+                <li>
+                  <a href='../components/2_ThePresentation.vue'> Ma Présentation </a>
+                </li>
+             
+                <li> 
+                  <a href='../components/Contenu.vue'> Mes Créations </a>
+                </li>
+             
+                <li> 
+                  <a href="../components/4_TheForm.vue">Me Contacter </a>
+                </li>
+
+              </ul>
+          
       </nav>
 
-  </TheHeader>
+
 </template>
 
 <style>
 
 #logo_Myrtille {
-  width: 13em;
-  height: 10em;
-  padding-bottom: 1em;
-  padding-left: 5em;
-  margin-top: -4em;
+  width: 17em;
+  height: 15em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 3em;
+  margin-top: -2em;
   display: flex;
 
 };
 
 * {
   display:flex;
-  background-color: plum;
+  background-color: rgb(253, 202, 253);
   height: 20em;
   max-width: 1280px;
   margin: 0 auto;
@@ -36,6 +52,27 @@
   font-weight: normal;
   align-items: center;
 
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2em;
+}
+
+ul {
+  width: 30em;
+  height: 5em;
+  margin-left: 1em;
+  font-family: "caviar", sans-serif;
+  font-size: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1.5em;  
+}
+
+h1 {
+  margin-top: -3em;
 }
 
 
