@@ -17,7 +17,7 @@
 </div>
 
 <div id="legal_mentions">
-    <small> IE Myrtille - Brandgatan 12, 457 40 Fjällbacka, Suède  </small>
+    <small> IE Myrtille - Brandgatan 12, 457 40 Fjällbacka, Suède <br> </small>
     <small> Dernière modification le 03 août 2024</small>
 </div>
 </template>
@@ -35,15 +35,14 @@
 };
 
 #social_medias:hover {
+    cursor: pointer;
     opacity: 0.4;
 }
 
-#social_medias:hover {
-    cursor: pointer;
-    }
 
-#Github {
-   margin-right: 2em;
+
+#Github:hover {
+    opacity: 0.4;
 };
 
 #LinkedIn {
@@ -62,6 +61,7 @@ padding-left: 2em;
 small {
     display: flex;
     flex-direction: row;
+    
 }
 
 </style>
