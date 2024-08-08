@@ -5,15 +5,15 @@
   <div id="form"></div>
 
   <form ref="form" @submit.prevent="sendEmail">
-    <label>Prénom</label>
+    <label id="firstname">Prénom : </label>
     <input type="text" name="user_name">
-    <label>Nom</label>
+    <label id="lastname">Nom : </label>
     <input type="lastname" name="user_lastname">
-    <label>Objet</label>
+    <label id="subject">Objet : </label>
     <input type="Object" name="user_object">
-    <label>Message</label>
+    <label id="yourmessage">Message : </label>
     <textarea name="message"></textarea>
-    <input type="submit" value="Send">
+    <input type="submit" value="Soumettre">
   </form>
 </template>
 
@@ -50,12 +50,29 @@ export default {
 <style>
 
 form {
-  padding-top: 50em;
-  font-family: "magnisia", sans-serif;
+  margin-left: 5em;
+  margin-right: 5em;
+  font-family: "reality", sans-serif;
+  font-weight: bolder;
   font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  border: solid;
 };
 
 input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 2em;
+  
+  
+};
+
+input[type=text]:focus {
+  border: 3px solid #555;
+};
+
+label {
   margin-left: 2em;
 }
 
