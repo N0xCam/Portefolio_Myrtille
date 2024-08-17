@@ -29,7 +29,7 @@
 
 </template>
 
-<style>
+<style scoped>
 
 #logo_Myrtille {
   width: 17em;
@@ -58,9 +58,8 @@ nav {
   display: flex;
   flex-direction: row;
   margin-top: 2em;
-  position:fixed;
-  background-color: plum;
-  opacity: 0.5;
+ 
+  
 }
 
 ul {

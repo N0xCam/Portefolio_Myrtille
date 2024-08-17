@@ -36,14 +36,14 @@
 
 #social_medias:hover {
     cursor: pointer;
-    opacity: 0.4;
-}
+ 
+};
 
-
-
-#Github:hover {
+#social_medias:hover {
     opacity: 0.4;
 };
+
+
 
 #LinkedIn {
     height: 2em;
@@ -61,6 +61,8 @@ padding-left: 2em;
 small {
     display: flex;
     flex-direction: row;
+    font-size: 3em;
+    font-family: "caviar", sans-serif;
     
 }
 

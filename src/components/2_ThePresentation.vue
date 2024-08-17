@@ -37,7 +37,7 @@ margin-right: 100px;
   }
 
 h1, h2 {
-  font-family: 'milestone',sans-serif;
+  font-family: "milestone",sans-serif;
   font-size: 3em;
   flex-direction: row;
   padding-right: 2em;
