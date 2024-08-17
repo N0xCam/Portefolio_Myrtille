@@ -45,6 +45,7 @@
 
 
 
+
 #LinkedIn {
     height: 2em;
     width: 20%;
@@ -63,6 +64,7 @@ small {
     flex-direction: row;
     font-size: 3em;
     font-family: "caviar", sans-serif;
+    padding-top: -10em;
     
 }
 

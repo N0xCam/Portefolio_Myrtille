@@ -40,24 +40,24 @@ export default {
     },
   },
 };
+
+
 </script>
-
-
-
-
-
 
 <style scoped>
 
 h2 {
-  padding-top:20em;
+  padding-top:1em;
+  padding-bottom: 1em;
+  padding-left: 6em;
+  font-size: 4em;
 }
 form {
   margin-left: 5em;
   margin-right: 5em;
   font-family: "reality", sans-serif;
   font-weight: bolder;
-  font-size: 2em;
+  font-size: 3em;
   display: flex;
   flex-direction: column;
   border: solid;
@@ -66,7 +66,7 @@ form {
 input {
   width: 100%;
   box-sizing: border-box;
-  margin-bottom: 2em;
+  margin-bottom: 10em;
   
   
 };
@@ -77,6 +77,11 @@ input[type=text]:focus {
 
 label {
   margin-left: 2em;
+  
+};
+
+#submit {
+  font-size: 2em;
 }
 
 </style>

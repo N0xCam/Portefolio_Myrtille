@@ -1,7 +1,3 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
   
    
@@ -17,13 +13,10 @@
             </p>
         </div>
         
-        
-
-   
-
 </template>
 
 <style scoped>
+
 
 #Me {
 width: 10em;
@@ -34,25 +27,28 @@ box-shadow: 0 0  30px white;
 margin-top: 3em;
 margin-left: 20em;
 margin-right: 100px;
-  }
+  };
+
+  @font-face {
+  font-family: 'milestone';
+  src:url('/src/assets/fonts/milestone_brush/MilestoneBrush.ttf');
+};
 
 h1, h2 {
-  font-family: "milestone",sans-serif;
   font-size: 3em;
   flex-direction: row;
   padding-right: 2em;
   padding-left: 12em;
+  font-family: "milestone", sans-serif;
+  padding-top: -10em;
   
 };
 
-h1 {
-  margin-top: 2em;
-  
-};
 
-h2 {
-  padding-bottom: 1em;
-};
+
+  
+
+
 
 #ThePresentation {
   display: flex;
