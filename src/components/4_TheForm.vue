@@ -47,8 +47,11 @@ export default {
 
 
 
-<style>
+<style scoped>
 
+h2 {
+  padding-top:20em;
+}
 form {
   margin-left: 5em;
   margin-right: 5em;
