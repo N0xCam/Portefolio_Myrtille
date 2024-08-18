@@ -11,16 +11,16 @@
           <img src="../assets/images/modal_1.png">
           <h3> 08/05/2024</h3>
           <h4> HTML, CSS </h4>
-          <link href="https://github.com/N0xCam/CV_Regina_Phalange">
+          <a href="https://github.com/N0xCam/CV_Regina_Phalange" target="_blank"> Le lien vers mon CV </a>
       </div>
 
 
       <div id="MyTextbook">
           <h2>Mon Cahier des Charges</h2>
-          <img src="../assets/images/modal_2.png">
           <h3> 30/05/2024</h3>
           <h4> Canva, Word </h4>
-          <link href="https://github.com/N0xCam/CV_Regina_Phalange">
+          <embed src="/src/assets/pdf/Cahier_des_charges.pdf" width="1000" height="900" type="application/pdf"/>
+<a href="https://github.com/N0xCam/CV_Regina_Phalange" target="_blank"> </a>
       </div>
 
 
@@ -29,7 +29,7 @@
           <img src="../assets/images/modal_3.png">
           <h3> 12/07/2024</h3>
           <h4> JavaScript </h4>
-          <link href="https://github.com/N0xCam/DevoirCommentaire">
+          <a href="https://github.com/N0xCam/DevoirCommentaire" target="_blank">Le lien vers mon espace commentaire </a>
       </div>
 
     </div>

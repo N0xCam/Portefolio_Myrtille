@@ -6,13 +6,13 @@
 
   <form ref="form" @submit.prevent="sendEmail">
     <label id="firstname">Prénom : </label>
-    <input type="text" name="user_name">
+    <input type="text" name="user_name" style="height: 3em;">
     <label id="lastname">Nom : </label>
-    <input type="lastname" name="user_lastname">
+    <input type="lastname" name="user_lastname" style="height: 3em;">
     <label id="subject">Objet : </label>
-    <input type="Object" name="user_object">
+    <input type="Object" name="user_object" style="height: 3em;">
     <label id="yourmessage">Message : </label>
-    <textarea name="message"></textarea>
+    <textarea name="message" style="height: 15em;"></textarea>
     <input type="submit" value="Soumettre">
   </form>
 </template>
@@ -82,6 +82,8 @@ label {
 
 #submit {
   font-size: 2em;
-}
+};
+
+
 
 </style>
