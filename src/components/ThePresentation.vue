@@ -35,12 +35,12 @@ margin-right: 100px;
 };
 
 h1, h2 {
-  font-size: 3em;
+  font-size: 3.5em;
   flex-direction: row;
   padding-right: 2em;
   padding-left: 12em;
   padding-top: -10em;
-  
+  font-family: "reality", sans-serif;
 };
 
 
