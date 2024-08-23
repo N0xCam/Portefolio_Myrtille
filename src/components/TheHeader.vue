@@ -1,6 +1,3 @@
-<script setup lang="ts">
-</script>
-
 <template>
  
 <div id="home"></div>
@@ -10,16 +7,16 @@
              <a href="#home"><img src="../assets/images/Myrtille.png" alt="logo Myrtille" id="logo_Myrtille"></a>
 
              <ul>
-                <li>
-                  <a href='#Presentation'> Ma Présentation </a>
+                <li id="mypresentation">
+                  <a href='#Presentation' style="text-decoration: none;"> Ma Présentation </a>
                 </li>
              
-                <li> 
-                  <a href='#form'> Mes Créations </a>
+                <li id="mycreations"> 
+                  <a href='#Creations' style="text-decoration: none;"> Mes Créations </a>
                 </li>
              
-                <li> 
-                  <a href="#form">Me Contacter </a>
+                <li id="myform"> 
+                  <a href="#form" style="text-decoration: none;">Me Contacter </a>
                 </li>
 
               </ul>
@@ -29,7 +26,7 @@
 
 </template>
 
-<style>
+<style scoped>
 
 #logo_Myrtille {
   width: 17em;
@@ -51,6 +48,8 @@
   padding: 2rem;
   font-weight: normal;
   align-items: center;
+  
+  
 
 }
 
@@ -58,20 +57,33 @@ nav {
   display: flex;
   flex-direction: row;
   margin-top: 2em;
-  position:fixed;
-  background-color: plum;
-  opacity: 0.5;
+  
+  
 }
 
 ul {
   width: 30em;
   height: 5em;
   margin-left: 1em;
-  font-family: "caviar", sans-serif;
+  text-decoration: none;
   font-size: 2em;
   display: flex;
   justify-content: space-evenly;
   margin-top: 1.5em;  
+  font-family: "caviar", sans-serif;
+}
+
+
+#mypresentation:hover {
+  text-decoration: underline;
+}
+
+#mycreations:hover {
+  text-decoration: underline;
+}
+
+#myform:hover {
+  text-decoration: underline;
 }
 
 h1 {

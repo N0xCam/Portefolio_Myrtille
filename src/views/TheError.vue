@@ -13,4 +13,23 @@
     align-items: center;
   }
 }
+
+h1 {
+  margin-top: 3em;
+  font-family: "reality", sans-serif;
+  font-size: 10em;
+  display: flex;
+  align-content: center;
+}
+
+.Erreur {
+  display: flex;
+  flex-direction: column;
+}
+ 
+img {
+  height: 100%;
+  width: 80em;
+}
+
 </style>
