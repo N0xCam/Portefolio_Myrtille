@@ -28,11 +28,13 @@ body {
   font-family: 'magnisia';
   src:url('/src/assets/fonts/magnisa_sans/MagnisaSans-Regular.ttf');
 
-  font-family: 'milestone';
-  src:url('/src/assets/fonts/milestone_brush/MilestoneBrush.ttf');
+  font-family: 'milestone_brush';
+  src: url('/src/assets/fonts/milestone_brush/MilestoneBrush.ttf');
 
   font-family: 'reality';
   src:url('/src/assets/fonts/reality/Reality\ Scene.otf');
-}
+};
+
+
 
 

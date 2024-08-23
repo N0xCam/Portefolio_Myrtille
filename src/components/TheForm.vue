@@ -5,14 +5,14 @@
   <div id="form"></div>
 
   <form ref="form" @submit.prevent="sendEmail">
-    <label id="firstname">Prénom : </label>
-    <input type="text" name="user_name">
-    <label id="lastname">Nom : </label>
-    <input type="lastname" name="user_lastname">
+    <label id="first-name">Prénom : </label>
+    <input type="text" name="user_name" required>
+    <label id="last-name">Nom : </label>
+    <input type="lastname" name="user_lastname" required>
     <label id="subject">Objet : </label>
-    <input type="Object" name="user_object">
+    <input type="Object" name="user_object" required>
     <label id="yourmessage">Message : </label>
-    <textarea name="message"></textarea>
+    <textarea name="message" required></textarea>
     <input type="submit" value="Soumettre">
   </form>
 </template>
@@ -32,6 +32,8 @@ export default {
         .then(
           () => {
             console.log('SUCCESS!');
+            alert ("Message envoyé");
+            reset;
           },
           (error) => {
             console.log('FAILED...', error.text);
@@ -40,43 +42,59 @@ export default {
     },
   },
 };
+
+
+
+
 </script>
-
-
-
-
-
 
 <style scoped>
 
 h2 {
-  padding-top:20em;
+  padding-top:2em;
+  padding-bottom: 2em;
+  padding-left: 6em;
+  font-size: 4em;
+  font-family: "reality", sans-serif;
 }
 form {
   margin-left: 5em;
   margin-right: 5em;
-  font-family: "reality", sans-serif;
+  font-family: "caviar", sans-serif;
   font-weight: bolder;
-  font-size: 2em;
+  font-size: 2.5em;
   display: flex;
   flex-direction: column;
-  border: solid;
-};
+ 
+}
 
 input {
   width: 100%;
   box-sizing: border-box;
-  margin-bottom: 2em;
+  margin-bottom: 10em;
+  height: 4em;
   
-  
-};
+}
+
+textarea {
+  height: 15em;
+}
 
 input[type=text]:focus {
   border: 3px solid #555;
-};
+}
 
 label {
   margin-left: 2em;
+  margin-top: -2em;
+  
 }
+
+#submit {
+  font-size: 2em;
+}
+
+
+
 
 </style>
