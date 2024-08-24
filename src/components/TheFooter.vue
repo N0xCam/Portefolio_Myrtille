@@ -4,7 +4,7 @@
 
 <div id="social_medias">
     <div id="GitHub">
-        <a href="https://github.com/N0xCam" target="_blank"><img src="../assets/images/github-mark.png" alt="GitHub" style="height: 7em ; padding-left: 35em; padding-top: 3em;" id="Logo_GitHub"></a>
+        <a href="https://github.com/N0xCam" target="_blank"><img src="../assets/images/github-mark.png" alt="GitHub" style="height: 7em ; padding-left: 35em; padding-top: 3em padding-right: 40em;" id="Logo_GitHub"></a>
     </div>
 </div>
 
